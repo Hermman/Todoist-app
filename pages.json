@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "Todoist"
+				"navigationBarTitleText": ""
 			}
 		},
 		{
@@ -16,18 +16,29 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#4264EC",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
+		"color": "",
+		"selectedColor": "",
 		"list": [{
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home_active.png",
 			"pagePath": "pages/index/index",
-			"text": "首页"
+			"text": ""
 		},
 		{
+			"iconPath": "static/image/oneself.png",
+			"selectedIconPath": "static/image/oneself_active.png",
 			"pagePath": "pages/oneself/oneself",
-			"text": "我的"
-		}]
-		
+			"text": ""
+		}],
+		"midButton": {
+			"width": "50px",
+			"height": "45px",
+			"iconPath": "static/image/add.png",
+			"iconWidth": "45px"
+		}
 	}
 }
