@@ -14,6 +14,7 @@
           class="header-list-item"
           v-for="(item, index) in dateList"
           :key="index"
+          @click="handleItem(index)"
         >
           {{ item }}
         </view>
@@ -52,7 +53,11 @@ export default {
     };
   },
   onLoad() {},
-  methods: {},
+  methods: {
+    handleItem(index) {
+      console.log(index);
+    },
+  },
 };
 </script>
 
