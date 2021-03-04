@@ -1,5 +1,5 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -7,50 +7,58 @@
 			}
 		},
 		{
-			"path": "pages/oneself/oneself",
+			"path": "pages/calendar/calendar",
 			"style": {
-				"navigationBarTitleText": "me"
+				"navigationBarTitleText": "calendar"
+			}
+		},
+		{
+			"path": "pages/chart/chart",
+			"style": {
+				"navigationBarTitleText": "chart"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "setting"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#4264EC",
+		"navigationBarBackgroundColor": "#DC3044",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
-		"color": "",
-		"selectedColor": "",
+		"backgroundColor": "#f2dfdb",
+		"borderStyle": "#f2dfdb",
 		"list": [{
 			"iconPath": "static/image/home.png",
 			"selectedIconPath": "static/image/home_active.png",
-			"pagePath": "pages/index/index",
-			"text": ""
+			"pagePath": "pages/index/index"
 		},
 		{
 			"iconPath": "static/image/calendar.png",
 			"selectedIconPath": "static/image/calendar_action.png",
-			"pagePath": "pages/oneself/oneself",
-			"text": ""
+			"pagePath": "pages/calendar/calendar"
 		},
 		{
 			"iconPath": "static/image/chart.png",
 			"selectedIconPath": "static/image/chart_action.png",
-			"pagePath": "pages/oneself/oneself",
-			"text": ""
+			"pagePath": "pages/chart/chart"
 		},
 		{
 			"iconPath": "static/image/setting.png",
 			"selectedIconPath": "static/image/setting_action.png",
-			"pagePath": "pages/oneself/oneself",
-			"text": ""
+			"pagePath": "pages/setting/setting"
 		}],
 		"midButton": {
-			"width": "45px",
-			"height": "45px",
+			"width": "60px",
+			"height": "65px",
 			"iconPath": "static/image/add.png",
-			"iconWidth": "45px"
+			"iconWidth": "50px"
 		}
 	}
 }

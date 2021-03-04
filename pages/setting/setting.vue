@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      title: "我的 oneself",
+      title: "setting page",
     };
   },
   onLoad() {},
